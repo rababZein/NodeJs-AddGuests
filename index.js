@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const amqp = require('amqplib/callback_api');
 const app = express();
 app.use(express.json());
